@@ -1,9 +1,6 @@
 import React, { useContext } from 'react';
-import { LanguageContext } from '../../context/LanguageContext';
-import { translations } from '../../utils/translations';
 
 const Footer = () => {
-  const { language } = useContext(LanguageContext);
 
   return (
     <footer style={styles.footer}>
