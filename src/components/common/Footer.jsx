@@ -4,7 +4,6 @@ import { translations } from '../../utils/translations';
 
 const Footer = () => {
   const { language } = useContext(LanguageContext);
-  const t = translations[language] || translations.en;
 
   return (
     <footer style={styles.footer}>
